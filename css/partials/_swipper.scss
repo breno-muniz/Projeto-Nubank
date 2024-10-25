@@ -28,7 +28,7 @@
 
 .swiper-slide{
     max-width: 420px;
-
+    border: 1px solid red;
     padding: 24px 36px;
     margin: 0px 16px;
     border-radius: 50px;
@@ -39,6 +39,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
+    @include responsive(s){
+        max-width: 340px;
+    }
 }
 
 .button-next{
@@ -50,7 +54,7 @@
     height: 36px;
 
     cursor: pointer;
-    background-image: url(svg/icon-arrow.svg);
+    background-image: url(../../svg/icon-arrow.svg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -64,7 +68,7 @@
     height: 36px;
 
     cursor: pointer;
-    background-image: url(svg/icon-arrow.svg);
+    background-image: url(../../svg/icon-arrow.svg);
     background-repeat: no-repeat;
     background-position: center center;
     transform: rotate(180deg);
@@ -80,21 +84,21 @@
 }
 
 .photo-1{
-    background-image: url(img/people1.png);
+    background-image: url(../../img/people1.png);
 }
 
 .photo-2{
-    background-image: url(img/people2.png);
+    background-image: url(../../img/people2.png);
 }
 
 .photo-3{
-    background-image: url(img/people3.png);
+    background-image: url(../../img/people3.png);
 }
 
 .photo-4{
-    background-image: url(img/people4.png);
+    background-image: url(../../img/people4.png);
 }
 
 .photo-5{
-    background-image: url(img/people5.png);
+    background-image: url(../../img/people5.png);
 }
