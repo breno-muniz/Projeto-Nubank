@@ -171,7 +171,7 @@
   transform: translate(-50%, 0);
   width: 124px;
   height: 32px;
-  background-image: url(../../svg/entail.svg);
+  background-image: url("../svg/entail.svg");
   background-repeat: no-repeat;
 }
 
@@ -421,7 +421,7 @@ a:hover {
 }
 
 .m-3 {
-  margin: 48x;
+  margin: 48px;
 }
 
 .m-4 {
@@ -441,7 +441,7 @@ a:hover {
 }
 
 .mt-3 {
-  margin-top: 48x;
+  margin-top: 48px;
 }
 
 .mt-4 {
@@ -461,7 +461,7 @@ a:hover {
 }
 
 .mb-3 {
-  margin-bottom: 48x;
+  margin-bottom: 48px;
 }
 
 .mb-4 {
@@ -481,7 +481,7 @@ a:hover {
 }
 
 .mr-3 {
-  margin-right: 48x;
+  margin-right: 48px;
 }
 
 .mr-4 {
@@ -501,7 +501,7 @@ a:hover {
 }
 
 .ml-3 {
-  margin-left: 48x;
+  margin-left: 48px;
 }
 
 .ml-4 {
@@ -523,8 +523,8 @@ a:hover {
 }
 
 .mx-3 {
-  margin-left: 48x;
-  margin-right: 48x;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 .mx-4 {
@@ -548,8 +548,8 @@ a:hover {
 }
 
 .my-3 {
-  margin-top: 48x;
-  margin-bottom: 48x;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .my-4 {
@@ -571,7 +571,7 @@ a:hover {
 }
 
 .p-3 {
-  padding: 48x;
+  padding: 48px;
 }
 
 .p-4 {
@@ -591,7 +591,7 @@ a:hover {
 }
 
 .pt-3 {
-  padding-top: 48x;
+  padding-top: 48px;
 }
 
 .pt-4 {
@@ -611,7 +611,7 @@ a:hover {
 }
 
 .pl-3 {
-  padding-left: 48x;
+  padding-left: 48px;
 }
 
 .pl-4 {
@@ -631,7 +631,7 @@ a:hover {
 }
 
 .pr-3 {
-  padding-right: 48x;
+  padding-right: 48px;
 }
 
 .pr-4 {
@@ -651,7 +651,7 @@ a:hover {
 }
 
 .pb-3 {
-  padding-bottom: 48x;
+  padding-bottom: 48px;
 }
 
 .pb-4 {
@@ -673,8 +673,8 @@ a:hover {
 }
 
 .px-3 {
-  padding-left: 48x;
-  padding-right: 48x;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .px-4 {
@@ -698,8 +698,8 @@ a:hover {
 }
 
 .py-3 {
-  padding-top: 48x;
-  padding-bottom: 48x;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .py-4 {
@@ -1018,7 +1018,6 @@ header {
 
 .swiper-slide {
   max-width: 420px;
-  border: 1px solid red;
   padding: 24px 36px;
   margin: 0px 16px;
   border-radius: 50px;
@@ -1041,7 +1040,7 @@ header {
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background-image: url(../../svg/icon-arrow.svg);
+  background-image: url("../svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1053,7 +1052,7 @@ header {
   width: 36px;
   height: 36px;
   cursor: pointer;
-  background-image: url(../../svg/icon-arrow.svg);
+  background-image: url("../svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
@@ -1068,23 +1067,23 @@ header {
 }
 
 .photo-1 {
-  background-image: url(../../img/people1.png);
+  background-image: url("../img/people1.png");
 }
 
 .photo-2 {
-  background-image: url(../../img/people2.png);
+  background-image: url("../img/people2.png");
 }
 
 .photo-3 {
-  background-image: url(../../img/people3.png);
+  background-image: url("../img/people3.png");
 }
 
 .photo-4 {
-  background-image: url(../../img/people4.png);
+  background-image: url("../img/people4.png");
 }
 
 .photo-5 {
-  background-image: url(../../img/people5.png);
+  background-image: url("../img/people5.png");
 }
 
 .dropshadow {
@@ -1092,7 +1091,7 @@ header {
 }
 
 .bg-icon-mobile::after {
-  background-image: url(../../svg/icon-mobile.svg);
+  background-image: url("../svg/icon-mobile.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1103,7 +1102,7 @@ header {
 }
 
 .bg-icon-check::after {
-  background-image: url(../../svg/icon-check.svg);
+  background-image: url("../svg/icon-check.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1114,7 +1113,7 @@ header {
 }
 
 .bg-icon-contactless::after {
-  background-image: url(../../svg/icon-contactless.svg);
+  background-image: url("../svg/icon-contactless.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1125,7 +1124,7 @@ header {
 }
 
 .bg-icon-time::after {
-  background-image: url(../../svg/icon-time.svg);
+  background-image: url("../svg/icon-time.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1136,7 +1135,7 @@ header {
 }
 
 .bg-icon-config::after {
-  background-image: url(../../svg/icon-config.svg);
+  background-image: url("../svg/icon-config.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1147,7 +1146,7 @@ header {
 }
 
 .bg-icon-card::after {
-  background-image: url(../../svg/icon-card.svg);
+  background-image: url("../svg/icon-card.svg");
   background-size: cover;
   transition: 5s ease;
   cursor: pointer;
@@ -1208,11 +1207,11 @@ header {
 }
 @keyframes change-bg-card {
   0%, 49% {
-    background-image: url(../../svg/nubank.svg);
+    background-image: url("../svg/nubank.svg");
     background-size: cover;
   }
   50%, 100% {
-    background-image: url(../../svg/nubank-verse.svg);
+    background-image: url("../svg/nubank-verse.svg");
     background-size: cover;
   }
 }
